@@ -1,0 +1,10 @@
+README
+
+1. Please complile and run the ScholarshipClient class. I adapted your make file to compile and run with my database. You should be able to run with that. I am including a copy of my SQL database I hope I do this correctly. 
+
+2. Reason why I chose the gateway pattern:
+
+I chose the gateway pattern because it works well with my original design. Since I already had the objects loaded into an ArrayList I figured I could have this class return an arraylist instead of a map (as was suggested in the reading). This fits easily into my previous design, and I planned to add the functionality of the program by adding an application process, and I wouldn't have time to execute a complicated database interface and do that. In truth I also chose it because it is one of the easier patterns to implement, and this is my first time using any kind of database, so I already had a lot to learn there. 
+
+3. Additional Notes:
+If possible please do not grade the application gateway because I only had time to add an insert and delete function (the other gateways are more complete). I did not have time to do a modify program. I have spent over 20 hours on this assignment this week, so it was difficult to do more than that. I really wanted to see the functionality of adding an application process into the design so that I could see how much better it was than my original design (even though this was not part of the assignment). Thank you for helping me through this class! 
